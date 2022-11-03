@@ -23,13 +23,13 @@ body {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+ /* changed font size from 20px to 25px */
 .header section {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 20px;
+    font-size: 25px;
 }
 
 
@@ -41,7 +41,10 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
+ /* added margin to more acurately resemble given images header spacing */
+li-1,li-2,li-3{
+    margin-right: 100px;
+}
 a {
     color: #ffffff;
     text-decoration: none;
@@ -49,7 +52,6 @@ a {
 /* i changed the font size of p and added margin-right to make the paragraphs closer resemble the given image */
 p {
     font-size: 20px;
-    margin-right: 450px;
 }
 
 .hero {
@@ -70,11 +72,34 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/* here i changed width from 75% to 77% */
 .content {
-    width: 75%;
+    width: 77%;
     display: inline-block;
-    margin-left: 20px;
+}
+
+/* i added margin-left to the 3 following attributes and condensed them to one class to make room for 'benefits' section on the right side of the page */
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    margin-left: 25px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+
+/* combined three img classes */
+.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
+    max-height: 200px;
+}
+
+
+ /* combined header classes */
+.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
+    margin-bottom: 20px;
+    font-size: 36px;
 }
 
 .benefits {
@@ -92,117 +117,19 @@ p {
     margin-bottom: 32px;
     color: #ffffff;
 }
-/*  
-.benefit-brand {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-
-.benefit-cost {
-    margin-bottom: 32px;
-    color: #ffffff;
-}
-*/
-.benefit-lead h3, .benefit-brand h3,  .benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 /* combined h3 classes */
-/*  
-.benefit-brand h3 {
+.benefit-lead h3, .benefit-brand h3,  .benefit-cost h3 {
     margin-bottom: 10px;
-    text-align: center;
 }
 
-.benefit-cost h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
-*/
 /* combined benegit img classes */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-/* 
-.benefit-brand img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
 
-.benefit-cost img {
-    display: block;
-    margin: 10px auto;
-    max-width: 150px;
-}
- */
-/* i added margin-right and margin-left to the 3 following attributes and condensed them to one class to make room for 'benefits' section on the right side of the page */
-.search-engine-optimization, .online-reputation-management, .social-media-marketing {
-    margin-bottom: 20px;
-    margin-right: 425px;
-    margin-left: 25px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-/*  
-.online-reputation-management {
-    margin-bottom: 20px;
-    margin-right: 425px;
-    margin-left: 25px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    margin-right: 425px;
-    margin-left: 25px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-*/
-
-/* combined three img classes */
-.search-engine-optimization img, .online-reputation-management img, .social-media-marketing img  {
-    max-height: 200px;
-}
-/* 
-.online-reputation-management img {
-    max-height: 200px;
-}
-
-.social-media-marketing img {
-    max-height: 200px;
-}
- */
-
- /* combined header classes */
-.search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2  {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-/*  
-.online-reputation-management h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-
-.social-media-marketing h2 {
-    margin-bottom: 20px;
-    font-size: 36px;
-}
-*/
 .footer {
     padding: 30px;
     clear: both;
