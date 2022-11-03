@@ -6,6 +6,7 @@ This project is a refactor of the Horiseon company webpage. The purpose of this 
 
 
 ## Usage
+![image](https://user-images.githubusercontent.com/116680523/199844388-a56f6bb9-189e-439d-99a7-f2cdcd676d6a.png)
 
 
 ## Credits
